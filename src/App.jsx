@@ -1,13 +1,14 @@
-import './App.css'
+import "./App.css";
+import Layout from "./Components/layout/Layout";
 
 function App() {
-
   return (
     <>
-      
-      <h1 className='text-4xl font-bold '>Knowlegde Cafe</h1>
+      <div className="container mx-auto">
+        <Layout></Layout>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
